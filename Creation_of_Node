@@ -1,0 +1,109 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMj3yEkNdosRFW4FapdrokX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Vedant090/DSA/blob/main/Creation_of_Node\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "VSjlFsXqrL8x"
+      },
+      "outputs": [],
+      "source": [
+        "class Node:\n",
+        "\n",
+        "    def __init__(self,value):\n",
+        "        self.data=value\n",
+        "        self.next=None"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "new_node1=Node(1)\n",
+        "new_node2=Node(2)"
+      ],
+      "metadata": {
+        "id": "oHDOJgEcrkWe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#here we are printing the value of each node\n",
+        "print(new_node1.data)\n",
+        "print(new_node2.data)"
+      ],
+      "metadata": {
+        "id": "qQw_4xAcrrHl",
+        "outputId": "eb3b07d5-4f74-4b83-d255-31e06bfec064",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#as these nodes are not interconnected therefore the next of both nodes will be none\n",
+        "print(new_node1.next)\n",
+        "print(new_node2.next)"
+      ],
+      "metadata": {
+        "id": "W3DkXdujrtlQ",
+        "outputId": "6d5b96a0-f262-40ac-e922-2670c592880e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "None\n",
+            "None\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
