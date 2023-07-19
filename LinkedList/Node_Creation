@@ -1,0 +1,10 @@
+class Node:
+
+    def __init__(self,value):
+        self.data=value
+        self.next=None
+
+new_node1=Node(1)
+new_node2=Node(2)
+print(new_node1.data)
+print(new_node2.data)
